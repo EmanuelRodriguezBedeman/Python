@@ -35,11 +35,11 @@ if 30 <= imc <= 34.9:
             print("Por favor, mejore su dieta alimentaria, realice ejercicio y consulte a su nutricionista\n")
 
     except: 
-        print("No sea pelotudo, por favor responda que Sí ó que No\n") 
+        print("Por favor responda que Sí ó que No\n") 
 
 if 35 <= imc <= 39.9:
     print('''Esta muy por encima del rango normal, usted tiene "Obesidad Fase 2"
     Por favor, consulte a la brevedad con su médico o nutricionista de confianza.\n''')
     
 if imc >= 40:
-    print('Esta demasiado por encima del rango normal, usted es un GORDO TETÓN Por favor, vaya rajando a ver al médico. Se va a morir, culeao.\n')
+    print('Esta demasiado por encima del rango normal. Por favor, vaya inmediatamente a ver al médico.\n')
