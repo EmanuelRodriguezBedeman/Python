@@ -12,25 +12,25 @@ BMI = BMI_estimate()
 # From here, the program evaluates this BMI value and prints a message about it.
 
 if BMI < 18.5:
-    print('\nSu BMI esta por debajo del rango normal, usted tiene "Bajo Peso"\n')
+    print('\nYour BMI is below the normal range, you have "Low Weight"\n')
     
 if 18.5 <= BMI <= 24.9:
-    print('Su BMI esta dentro del rango normal. ¡Felicitaciones!\n')
+    print('Your BMI is on the normal range. Congratulations!\n')
 
 if 25 <= BMI <= 29.9:
-    print('''Esta levemente por encima del rango normal, usted tiene "Sobre Peso"
-    Debería considerar realizar ejercicio y mejorar su dieta alimentaria.\n''')
+    print('''It's slightly above the normal range, you have "Overweight Peso"
+    You shoul considerate making excercise and improving your diet.\n''')
 
 if 30 <= BMI <= 34.9:
-    print('Esta por encima del rango normal, usted tiene "Obesidad Fase 1"\n')
+    print('Your BMI is above the normal range, you have "Obese Class 1"\n')
 
     # This function starts when this conditional is True.
     # Starts a program where ask the user a few question about abdominal obesity
     abdominal_obesity() 
 
 if 35 <= BMI <= 39.9:
-    print('''Esta muy por encima del rango normal, usted tiene "Obesidad Fase 2"
-    Por favor, consulte a la brevedad con su médico o nutricionista de confianza.\n''')
+    print('''Your BMI is high above the normal range, you have "Obese Class 2"
+    Please, consult as soon as posible with your trusted doctor or nutritionist.\n''')
 
 if BMI >= 40:
-    print('Esta demasiado por encima del rango normal, usted es un GORDO TETÓN Por favor, vaya rajando a ver al médico. Se va a morir, culeao.\n')
+    print('Your BMI is well above the normal range, you have "Obese Class 3", please consult with your trusted doctor inmediatly.\n')
