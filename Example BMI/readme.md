@@ -30,6 +30,9 @@ Both parameters have to be in this units (kilograms/meters) because of the formu
 
 If the user accidently enters this parameters in other units, the program continues giving **MISLEADING INFORMATION ABOUT HIS/HER BMI**
 
-Once both parameters are entered correctly, the program calculates the BMI, returns it and shows the classification that the patient has:
+Once both parameters are entered correctly, the program calculates the BMI, returns it and shows the classification that the user has:
+
+![image](https://user-images.githubusercontent.com/93904438/145897003-ffcb250a-042c-4283-9f3a-4e9323e0de5a.png)
+
 
 # End of the showcase
