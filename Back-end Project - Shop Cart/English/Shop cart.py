@@ -1,9 +1,9 @@
-#-------------Imports del programa------------------------
+#-------------Program imports------------------------
 
 from Warehouse import products
 from Functions import *
 
-#-------------Programa------------------------------------
+#-------------Program--------------------------------
 
 clear()
 print("Welcome to the supermarket in console")
