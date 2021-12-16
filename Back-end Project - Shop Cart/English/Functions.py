@@ -22,21 +22,21 @@ def show_content(container):
         
         
 def bags():
-    bag = (input("Do you need any bags? Value 5$ each\n>")).capitalize()
+    bag = (input("Do you need any bags? (5$ each) (Yes/No)\n>")).capitalize()
 
     global bags_amount
 
     if bag == "Yes":
-        bags_amount = int(input("How many bags you gonna need?\n>"))
+        bags_amount = int(input("\nHow many bags you gonna need?\n>"))
 
         if bags_amount == ValueError:
-            print("Error. Please introduce a number.")
+            print("\nError. Please introduce a number.")
         
     elif bag == "No":
         bags_amount = 0
     
     else:
-        print('Error. Answer "Yes" or "No"')
+        print('\nError. Answer "Yes" or "No"')
 
 
 def show_price(cart):
