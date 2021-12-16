@@ -1,6 +1,6 @@
-# Information about the dataset
+# Information about the dataset "students grades"
 
-### Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
+## Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
 1 school - student's school (binary: "GP" - Gabriel Pereira or "MS" - Mousinho da Silveira) -->
 
 2 sex - student's sex (binary: "F" - female or "M" - male)
@@ -62,7 +62,7 @@
 30 absences - number of school absences (numeric: from 0 to 93)
 
 
-### These grades are related with the course subject, Math or Portuguese:
+## These grades are related with the course subject, Math or Portuguese:
 31 G1 - first period grade (numeric: from 0 to 20)
 
 31 G2 - second period grade (numeric: from 0 to 20)
