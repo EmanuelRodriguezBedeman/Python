@@ -64,6 +64,7 @@
 
 
 ## These grades are related with the course subject, Math or Portuguese:
+
 - 31 G1 - first period grade (numeric: from 0 to 20)
 
 - 31 G2 - second period grade (numeric: from 0 to 20)
