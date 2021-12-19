@@ -5,6 +5,7 @@ from Warehouse import products
 def clear():
     if system_os() == "Windows":
         system('cls')
+
     else:
         system('clear')
 
@@ -13,30 +14,37 @@ def show_content(container):
     for product in container:
 
         if type(container) == dict:
-
             print("\n -{}, ${}".format(product, container[product]))
         
         elif type(container) == list:
-
             print("\n -{} ${}".format(product, products[product]))
         
         
 def bags():
-    bag = (input("Do you need any bags? (5$ each) (Yes/No)\n>")).capitalize()
-
     global bags_amount
 
-    if bag == "Yes":
-        bags_amount = int(input("\nHow many bags you gonna need?\n>"))
+    while True:
+        bag = (input("Do you need any bags? (5$ each) (Yes/No)\n>")).capitalize()
 
-        if bags_amount == ValueError:
-            print("\nError. Please introduce a number.")
+        if bag == "Yes":
+
+            while True:
+            
+                try:
+                    bags_amount = int(input("\nHow many bags you gonna need?\n>"))
+
+                except ValueError:
+                    print("\nError. Please introduce a number.")
+
+                else:
+                    return bags_amount
+            
+        elif bag == "No":
+            bags_amount = 0
+            break
         
-    elif bag == "No":
-        bags_amount = 0
-    
-    else:
-        print('\nError. Answer "Yes" or "No"')
+        else:
+            print('\nError. Answer "Yes" or "No"')
 
 
 def show_price(cart):
@@ -46,7 +54,6 @@ def show_price(cart):
     bags_price = (bags_amount * 5)
 
     for producto in cart:
-
         total += products[producto]
 
     tax = (total + bags_price) * 0.21
