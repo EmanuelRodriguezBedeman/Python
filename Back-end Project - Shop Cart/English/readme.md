@@ -6,7 +6,7 @@ The main difference is that this project is made with Python and it has some new
 
 ----------------------------------------------------------------------------------------------------------------
 
-# Showcase of the program
+# Program Sample:
 ## Enter a product to the Shop-Cart
 
 If you start the program it shows a welcome message and the list of the product with their value:
@@ -59,10 +59,14 @@ Once you enter the number, the program goes to it's final part. (_Read Below_)
 
 ![image](https://user-images.githubusercontent.com/93904438/146684941-d46b416b-eee6-42d7-81ab-2a2cd2ad43c0.png)
 
-- If you enter **"No"**, the amount of bags is set to 0 and the final part of the program starts:
+- If you enter **"No"**, the amount of bags is set to 0 and the final part of the program starts with 0 bags on the shop cart.
 
 ## Final part of the program, show Shop-Cart content and total value:
 
 This part shows the products inside the cart, their price, the amount of bags, the total value of bags, the tax price and the total value of the cart + bags + taxes:
 
-![image](https://user-images.githubusercontent.com/93904438/146682646-01bc44c9-3bec-43b0-8582-dee6ff4af91a.png)
+![image](https://user-images.githubusercontent.com/93904438/146685027-87ea87e3-6ae6-476d-9683-b2050c84bfb9.png)
+
+# End of the program sample
+
+Hope you like this project as much as I did building it, if you have any questions or suggestions just let me now !
