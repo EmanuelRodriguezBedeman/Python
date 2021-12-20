@@ -73,4 +73,4 @@ Esta parte muestra los productos del carro, su precio, la cantidad de bolsas, el
 
 # Fin de la muestra el programa.
 
-Espero que te guste este proyecto tanto como a mi me ha gustado construirlo, si tenes alguna pregunta o sugerencia solamente hazmelo saber !
+Espero que te guste este proyecto tanto como a mi me ha gustado construirlo, si tenes alguna pregunta o sugerencia solamente hazmelo saber!
