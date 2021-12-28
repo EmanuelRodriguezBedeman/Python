@@ -4,7 +4,7 @@ Here you can find the **notebook** of the Linear Regression Model of the data se
 
 I recommend watching it in kaggle.
 
-- [Kaggle Version](https://www.kaggle.com/emanuelbedeman/students-grades-for-portuguese-course/edit)
+- [Notebook in Kaggle Version](https://www.kaggle.com/emanuelbedeman/students-grades-for-portuguese-course/edit)
 
 - [Notebook in GitHub](https://github.com/EmanuelRodriguezBedeman/Python/blob/main/Machine%20Learning/Stundents%20Grades/Portuguese%20Students%20Grades%2C%20Regression.ipynb)
 
