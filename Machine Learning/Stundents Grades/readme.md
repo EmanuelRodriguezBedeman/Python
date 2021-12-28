@@ -1,7 +1,8 @@
 # Table of Content
 
 Here you can find the **notebook** of the Linear Regression Model of the data set for the Students Grades on Portuguese Course.
-I recommend the notebook found in kaggle.
+
+I recommend watching it in kaggle.
 
 - [Kaggle Version](https://www.kaggle.com/emanuelbedeman/students-grades-for-portuguese-course/edit)
 
