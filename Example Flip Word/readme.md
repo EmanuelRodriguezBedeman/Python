@@ -15,3 +15,7 @@ After that, it'll ask you how many characters does the word should have to be fl
 After entering a number (for this example 5), the program will flip the word that has 5 characters on it:
 
 ![image](https://user-images.githubusercontent.com/93904438/146466175-9da6c7c1-fef9-4603-8181-72472ae5d9e7.png)
+
+## Full showcase:
+
+![Animation](https://user-images.githubusercontent.com/93904438/172023289-48f3c341-5baf-4483-b13a-fdcd7609bf00.gif)
