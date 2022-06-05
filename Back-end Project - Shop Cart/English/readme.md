@@ -7,6 +7,11 @@ The main difference is that this project is made with Python and it has some new
 ----------------------------------------------------------------------------------------------------------------
 
 # Program Sample:
+
+![Animation](https://user-images.githubusercontent.com/93904438/172056066-22ca1977-b07f-4cae-b193-e1e6dc25bc73.gif)
+
+
+# Program features:
 ## Enter a product to the Shop-Cart
 
 If you start the program it shows a welcome message and the list of the product with their value:
