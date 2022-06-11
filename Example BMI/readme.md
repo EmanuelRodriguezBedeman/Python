@@ -16,6 +16,12 @@ If you have some suggetion don't doubt to tell me!
 
 # Program showcase:
 
+## Full showcase:
+
+![Animation](https://user-images.githubusercontent.com/93904438/173206181-649f9ae7-716b-4f1e-a698-2768828ce325.gif)
+
+## Explanation:
+
 Once the program starts, it shows the next messages and then waits for the user to introduce his weight in kilograms:
 
 ![image](https://user-images.githubusercontent.com/93904438/145894508-842c5fea-d9fa-4ec7-ba84-cae24be59fd1.png)
